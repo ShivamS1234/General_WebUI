@@ -27,7 +27,7 @@ namespace HealthCare.Controllers
             return View(model);
         }
         //google app password key
-        //fpqh xhzc wbdl qkgd
+        //milx ijlx ntpl mjvy
         [HttpPost]
         public ActionResult SubmitContactForm(ContactFormModel model)
         {
@@ -35,9 +35,9 @@ namespace HealthCare.Controllers
             {
                 try
                 {
-                    string recipientEmail = "shivavirthakur.001@gmail.com"; // To
-                    string senderEmail = "shivavirthakur@gmail.com"; // From
-                    string subject = "New Contact Form Aaroyagyam Clinic and Physiotherapy Center Web";
+                    string recipientEmail = "anandcktd41@gmail.com"; // To
+                    string senderEmail = "arogyaphysiotherapyweb@gmail.com"; // From
+                    string subject = "New Contact Form Arogya physiotherapy and slimming centre Web";
 
                     string messageBody = $@"
                         <p><strong>Name:</strong> {model.Name}</p>
@@ -48,7 +48,7 @@ namespace HealthCare.Controllers
                     // Configure the SMTP client for Gmail
                     using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                     {
-                        smtp.Credentials = new NetworkCredential(senderEmail, "fpqh xhzc wbdl qkgd");
+                        smtp.Credentials = new NetworkCredential(senderEmail, "milx ijlx ntpl mjvy");
                         smtp.EnableSsl = true;
                         // Create the email message
                         MailMessage mail = new MailMessage

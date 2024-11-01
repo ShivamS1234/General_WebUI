@@ -139,12 +139,9 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\CSS\Style.css" />
     <Content Include="Content\Img\banner.png" />
-    <Content Include="Content\Img\footer1.png" />
-    <Content Include="Content\Img\footer2.png" />
-    <Content Include="Content\Img\footer3.png" />
     <Content Include="Content\Img\logo.png" />
     <Content Include="Content\Img\logo_HealthCare.png" />
-    <Content Include="Content\Img\maxlife.png" />
+    <Content Include="Content\Img\logo_title.jpg" />
     <Content Include="Content\Img\medical_loading.gif" />
     <Content Include="Content\Img\physiotheripy.png" />
     <Content Include="Content\Img\pixelcut-export.png" />
@@ -154,6 +151,8 @@
     <Content Include="Content\Img\slide1.jpg" />
     <Content Include="Content\Img\slide2.jpg" />
     <Content Include="Content\Img\web_logo.png" />
+    <Content Include="Content\Img\work1.png" />
+    <Content Include="Content\Img\work2.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
